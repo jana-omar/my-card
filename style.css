@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f8f3e8;
+    color: black;
+    font-family: "Arial", sans-serif;
+    direction: rtl;
+    text-align: center;
+}
+
+h1 {
+    background-color: #f8f3e8;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+section {
+    background-color: #ddd4c0;
+    margin: 25px auto;
+    padding: 25px;
+    max-width: 800px;
+    border: 2px solid #f8f3e8;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #8b6b52;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button span {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#skills-content,
+#projects-content,
+#education-content {
+    display: none;
+    margin-top: 20px;
+}
+
+#skills-content p,
+#projects-content p,
+#education-content p {
+    background-color: #8b6b52;
+    border: 1px solid #f8f3e8;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section:last-child a {
+    display: inline-block;
+    background-color: #f8f3e8;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
